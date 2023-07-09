@@ -1,56 +1,70 @@
-*{
+* {
     box-sizing: border-box;
 }
-html{
+
+/*START: style definition for the root element*/
+html {
     font-size: clamp(16px, 3.5vw, 22px);
-    font-family: Garamond,Arial ,Verdana,Tahoma;
+    font-family: Garamond, Arial, Verdana, Tahoma;
     line-height: 1.5em;
 }
-#title{
+
+/*START: style definition for the root element*/
+
+#title {
     margin-bottom: 0;
 }
-#main{
+
+#main {
     background-color: #7bb56245;
     border-radius: 10px;
     padding: 5vw;
 }
-#img-div{
+
+#img-div {
     margin: 0;
     background-color: #fff;
     padding: 30px;
 }
-#img-caption{
+
+#img-caption {
     margin-top: 20px;
 }
-#image{
+
+#image {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
 }
-cite{
+
+cite {
     font-size: 0.8rem;
-    line-height:normal;
+    line-height: normal;
 }
-cite a{
+
+cite a {
     word-break: break-all;
 }
-.center{
+
+.center {
     text-align: center;
 }
 
-.tribute-section{
+.tribute-section {
     width: min(850px, 75vw);
     margin: 0 auto;
 }
 
-.timeline-row{
+.timeline-row {
     margin-block: 15px;
 }
-.timeline-year{
+
+.timeline-year {
     font-weight: bold;
 }
-blockquote{
+
+blockquote {
     font-style: italic;
     padding-bottom: 0.2rem;
 }
