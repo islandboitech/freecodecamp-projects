@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+/*Test comment*/
 html{
     font-size: clamp(16px, 3.5vw, 22px);
     font-family: Garamond,Arial ,Verdana,Tahoma;
